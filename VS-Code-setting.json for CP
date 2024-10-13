@@ -1,0 +1,15 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "cph.general.timeOut": 5000,
+    "cph.language.cpp.SubmissionCompiler": "GNU G++20 13.2 (64 bit, winlibs)",
+    "code-runner.saveAllFilesBeforeRun": true,
+    "workbench.startupEditor": "none",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle : Google ,IndentWidth: 3, ColumnLimit: 0}",
+    "workbench.editor.enablePreview": false,
+    "emmet.syntaxProfiles": {},
+    "editor.indentSize": "tabSize",
+    "editor.tabSize": 3,
+    "editor.formatOnSave": true,
+    "editor.fontSize": 14
+}
