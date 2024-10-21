@@ -601,5 +601,41 @@
 			"*/"
 		],
 		"description": "TwoPointerNotes"
+	},
+	"BoilerPlate Code": {
+		"prefix": "MMain",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"int main() {",
+			"  cin.tie(0)->sync_with_stdio(0);",
+			"  int t = 1;",
+			"  cin >> t;",
+			"  while (t--) {",
+			"    ",
+			"  }",
+			"  return 0;",
+			"}"
+		],
+		"description": "BoilerPlate Code"
+	},
+	"KMP_PrefixTable": {
+		"prefix": "KMP_PrefixTable",
+		"body": [
+			"vector<int> PrefixTable(string s) {",
+			"  const int n = s.size();",
+			"  vector<int> pi(n, 0);",
+			"",
+			"  for (int i = 1; i < n; i++) {",
+			"    int j = pi[i - 1];",
+			"    while (j && s[i] != s[j]) j = pi[j - 1];",
+			"    pi[i] = (s[i] == s[j] ? j + 1 : j);",
+			"  }",
+			"",
+			"  return pi;",
+			"}"
+		],
+		"description": "KMP_PrefixTable"
 	}
 }
