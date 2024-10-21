@@ -13,3 +13,5 @@
     "editor.formatOnSave": true,
     "editor.fontSize": 14
 }
+
+// add in clang format to make else below closing bracket: BreakBeforeBraces: Custom, BraceWrapping: { BeforeElse: true }
